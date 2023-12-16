@@ -1,12 +1,12 @@
 @extends('admin.layouts.admin-app')
-@section('page-title', 'Students')
+@section('page-title', 'Admins')
 @section('content')
     <div class="pagetitle">
-        <h1>Students</h1>
+        <h1>Admins</h1>
         <nav>
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="{{ route('admin.admin-dashboard') }}">Home</a></li>
-                <li class="breadcrumb-item active">Students</li>
+                <li class="breadcrumb-item active">Admins</li>
             </ol>
         </nav>
     </div><!-- End Page Title -->
@@ -17,17 +17,15 @@
 
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Student Records</h5>
+                        <h5 class="card-title">Admin Account Records</h5>
                         <!-- Table with stripped rows -->
-                        <table class="table-sm datatable">
+                        <table class="table datatable table-hover">
                             <thead>
                                 <tr>
                                     <th>#</th>
                                     <th>Name</th>
                                     <th>Email</th>
                                     <th>Password</th>
-                                    <th>Course</th>
-                                    <th>Year</th>
                                     <th>Actions</th>
                                 </tr>
                             </thead>
@@ -37,8 +35,6 @@
                                     <td>John Doe</td>
                                     <td>johndoe@mail.com</td>
                                     <td>admin123</td>
-                                    <td>BSCS</td>
-                                    <td>4</td>
                                     <td>
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-sm btn-primary">
@@ -55,8 +51,6 @@
                                     <td>Jane Doe</td>
                                     <td>janedoe@mail.com</td>
                                     <td>admin123</td>
-                                    <td>BSMID</td>
-                                    <td>4</td>
                                     <td>
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-sm btn-primary">

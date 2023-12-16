@@ -9,7 +9,7 @@
     <title>@yield('page-title')</title>
 
     <!-- Icon -->
-    <link href="/NiceAdmin/assets/img/usg-logo.png" rel="icon">
+    <link href="/e-votepro-logo.png" rel="icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.gstatic.com" rel="preconnect">
@@ -59,6 +59,12 @@
 
     <!-- Template Main JS File -->
     <script src="/NiceAdmin/assets/js/main.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            //
+        });
+    </script>
 
     <!-- Page Scripts -->
     @stack('page-scripts')

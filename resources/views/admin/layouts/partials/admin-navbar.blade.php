@@ -10,7 +10,7 @@
             <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
                 <li class="dropdown-header">
                     <h6>Jasper Fernandez</h6>
-                    <span>Administrator</span>
+                    <span>Admin</span>
                 </li>
                 <li>
                     <hr class="dropdown-divider">
@@ -27,7 +27,7 @@
                 </li>
 
                 <li>
-                    <a class="dropdown-item d-flex align-items-center" href="#">
+                    <a class="dropdown-item d-flex align-items-center" href="/login">
                         <i class="bi bi-box-arrow-right"></i>
                         <span>Sign Out</span>
                     </a>
