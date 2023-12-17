@@ -6,10 +6,10 @@ use App\Http\Controllers\Admin\AdminBlankController;
 use App\Http\Controllers\Admin\AdminAdminsController;
 use App\Http\Controllers\Admin\AdminPartiesController;
 use App\Http\Controllers\Admin\AdminResultsController;
-use App\Http\Controllers\Admin\AdminElectionController;
 use App\Http\Controllers\Admin\AdminOfficersController;
 use App\Http\Controllers\Admin\AdminStudentsController;
 use App\Http\Controllers\Admin\AdminDashboardController;
+use App\Http\Controllers\Admin\AdminElectionsController;
 use App\Http\Controllers\Admin\AdminCandidatesController;
 
 /*
@@ -36,7 +36,7 @@ Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
 Route::prefix('/admin')->group(function () {
     Route::get('/blank', [AdminBlankController::class, 'index'])->name('admin.admin-blank');
     Route::get('/dashboard', [AdminDashboardController::class, 'index'])->name('admin.admin-dashboard');
-    Route::get('/elections', [AdminElectionController::class, 'index'])->name('admin.admin-elections');
+    Route::get('/elections', [AdminElectionsController::class, 'index'])->name('admin.admin-elections');
     Route::get('/parties', [AdminPartiesController::class, 'index'])->name('admin.admin-parties');
     Route::get('/candidates', [AdminCandidatesController::class, 'index'])->name('admin.admin-candidates');
     Route::get('/results', [AdminResultsController::class, 'index'])->name('admin.admin-results');

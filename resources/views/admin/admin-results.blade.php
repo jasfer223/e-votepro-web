@@ -120,7 +120,7 @@
                                                     },
                                                     {
                                                         value: 300,
-                                                        name: 'Sample 2'
+                                                        name: 'Sample 2S'
                                                     }
                                                 ]
                                             }]
@@ -216,7 +216,7 @@
                                                     },
                                                     {
                                                         value: 300,
-                                                        name: 'Sample 2'
+                                                        name: 'Sample 2S'
                                                     }
                                                 ]
                                             }]
@@ -313,7 +313,7 @@
                                                     },
                                                     {
                                                         value: 300,
-                                                        name: 'Sample 2'
+                                                        name: 'Sample 2S'
                                                     }
                                                 ]
                                             }]
@@ -409,7 +409,7 @@
                                                     },
                                                     {
                                                         value: 300,
-                                                        name: 'Sample 2'
+                                                        name: 'Sample 2S'
                                                     }
                                                 ]
                                             }]
@@ -507,7 +507,7 @@
                                                     },
                                                     {
                                                         value: 300,
-                                                        name: 'Sample 2'
+                                                        name: 'Sample 2S'
                                                     }
                                                 ]
                                             }]

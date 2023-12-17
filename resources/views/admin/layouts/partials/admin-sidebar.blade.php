@@ -10,29 +10,32 @@
             </a>
         </li><!-- End Dashboard Nav -->
 
-        {{-- <li class="nav-item">
-            <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
-                <i class="bi bi-menu-button-wide"></i><span>Components</span><i class="bi bi-chevron-down ms-auto"></i>
+        <li class="nav-item">
+            <a class="nav-link {{ Route::currentRouteName() === 'admin.admin-elections' ? '' : 'collapsed' }}"
+                href="{{ route('admin.admin-elections') }}">
+                <i class="bi bi-archive"></i>
+                Elections
             </a>
-
-            <ul id="components-nav"
-                class="nav-content collapse {{ Route::currentRouteName() === 'admin.admin-blank' ? 'show' : '' }}"
-                data-bs-parent="#sidebar-nav">
-                <li>
-                    <a href="/admin/blank" class="active">
-                        <i class="bi bi-circle"></i><span>Alerts</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="components-accordion.html">
-                        <i class="bi bi-circle"></i><span>Accordion</span>
-                    </a>
-                </li>
-            </ul>
-        </li><!-- End Components Nav --> --}}
-
+        </li><!-- End Elections Nav -->
 
         <li class="nav-item">
+            <a class="nav-link {{ Route::currentRouteName() === 'admin.admin-parties' ? '' : 'collapsed' }}"
+                href="{{ route('admin.admin-parties') }}">
+                <i class="bi bi-flag"></i>
+                <span>Parties</span>
+            </a>
+        </li><!-- End Parties Nav -->
+
+        <li class="nav-item">
+            <a class="nav-link {{ Route::currentRouteName() === 'admin.admin-candidates' ? '' : 'collapsed' }}"
+                href="{{ route('admin.admin-candidates') }}">
+                <i class="bi bi-person-bounding-box
+                "></i>
+                <span>Candidates</span>
+            </a>
+        </li><!-- End Candidates Nav -->
+
+        {{-- <li class="nav-item">
             <a class="nav-link
                 {{ Route::currentRouteName() === 'admin.admin-elections' ||
                 Route::currentRouteName() === 'admin.admin-parties' ||
@@ -69,7 +72,7 @@
                     </a>
                 </li>
             </ul>
-        </li><!-- End Forms Nav -->
+        </li><!-- End Forms Nav --> --}}
 
         <li class="nav-item">
             <a class="nav-link {{ Route::currentRouteName() === 'admin.admin-results' ? '' : 'collapsed' }}"
@@ -90,7 +93,7 @@
         <li class="nav-item">
             <a class="nav-link {{ Route::currentRouteName() === 'admin.admin-officers' ? '' : 'collapsed' }}"
                 href="{{ route('admin.admin-officers') }}">
-                <i class="bi bi-people"></i>
+                <i class="bi bi-person-square"></i>
                 <span>Officers</span>
             </a>
         </li>
@@ -98,7 +101,7 @@
         <li class="nav-item">
             <a class="nav-link {{ Route::currentRouteName() === 'admin.admin-admins' ? '' : 'collapsed' }}"
                 href="{{ route('admin.admin-admins') }}">
-                <i class="bi bi-person-check"></i>
+                <i class="bi bi-shield-lock"></i>
                 <span>Admins</span>
             </a>
         </li>

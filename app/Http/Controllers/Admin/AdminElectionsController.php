@@ -5,10 +5,10 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class AdminElectionController extends Controller
+class AdminElectionsController extends Controller
 {
     public function index()
     {
-        return view('admin.admin-election');
+        return view('admin.admin-elections');
     }
 }

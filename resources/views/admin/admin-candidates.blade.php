@@ -16,7 +16,7 @@
             <div class="col-lg-12">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Candidate Records <span> | This Semester </span></h5>
+                        <h5 class="card-title">Candidate Records <span> | A.Y 2023-2024 </span></h5>
                         <button class="btn btn-sm btn-primary mb-3">
                             <i class="bi bi-person-plus"></i>
                         </button>

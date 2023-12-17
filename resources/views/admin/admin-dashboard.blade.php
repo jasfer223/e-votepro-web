@@ -95,7 +95,7 @@
                     </div><!-- End Revenue Card -->
 
                     <!-- Customers Card -->
-                    <div class="col-xxl-4 col-xl-12">
+                    <div class="col-xxl-4 col-md-6">
 
                         <div class="card info-card sales-card">
 
@@ -267,7 +267,7 @@
                             </div> --}}
 
                             <div class="card-body">
-                                <h5 class="card-title">Election Reports <span>| This Semester</span></h5>
+                                <h5 class="card-title">Election Reports <span>| This Year</span></h5>
 
                                 <!-- Line Chart -->
                                 <div id="reportsChart"></div>
@@ -360,60 +360,145 @@
                             </div> --}}
 
                             <div class="card-body pb-0">
-                                <h5 class="card-title">Top Candidates <span>| Today</span></h5>
+                                <h5 class="card-title">Top 10 Candidates <span>| This Year's Election</span></h5>
 
-                                <table class="table table-borderless">
+                                <table class="table table-sm table-borderless">
                                     <thead>
                                         <tr>
-                                            <th scope="col">Rank</th>
+                                            <th scope="col">
+                                                <i class="bi bi-trophy"></i>
+                                            </th>
+                                            <th scope="col">Election</th>
                                             <th scope="col">Name</th>
-                                            <th scope="col">Party Name</th>
-                                            <th scope="col">Points</th>
+                                            <th scope="col">Party</th>
+                                            <th scope="col">Votes</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <th>1</th>
+                                            <td>CITE</td>
                                             <td><a href="#" class="text-primary fw-bold">Ut inventore ipsa
                                                     voluptas
                                                     nulla</a></td>
                                             <td>INSAN</td>
-                                            <td class="fw-bold">124</td>
+                                            <td class="fw-bold">
+                                                <h6><span class="badge bg-secondary">100</span></h6>
+                                            </td>
+
 
                                         </tr>
                                         <tr>
                                             <th>2</th>
+                                            <td>USG</td>
                                             <td><a href="#" class="text-primary fw-bold">Exercitationem
                                                     similique
                                                     doloremque</a></td>
                                             <td>KOOL</td>
-                                            <td class="fw-bold">98</td>
+                                            <td class="fw-bold">
+                                                <h6><span class="badge bg-secondary">100</span></h6>
+                                            </td>
+
 
                                         </tr>
                                         <tr>
                                             <th>3</th>
+                                            <td>USG</td>
                                             <td><a href="#" class="text-primary fw-bold">Doloribus nisi
                                                     exercitationem</a></td>
                                             <td>SHEESH</td>
-                                            <td class="fw-bold">74</td>
+                                            <td class="fw-bold">
+                                                <h6><span class="badge bg-secondary">100</span></h6>
+                                            </td>
+
 
                                         </tr>
                                         <tr>
                                             <th>4</th>
+                                            <td>USG</td>
                                             <td><a href="#" class="text-primary fw-bold">Officiis quaerat
                                                     sint rerum
                                                     error</a></td>
                                             <td>INDEPENDENT</td>
-                                            <td class="fw-bold">63</td>
+                                            <td class="fw-bold">
+                                                <h6><span class="badge bg-secondary">100</span></h6>
+                                            </td>
 
                                         </tr>
                                         <tr>
                                             <th>5</th>
+                                            <td>USG</td>
                                             <td><a href="#" class="text-primary fw-bold">Sit unde debitis
                                                     delectus
                                                     repellendus</a></td>
                                             <td>WOW</td>
-                                            <td class="fw-bold">41</td>
+                                            <td class="fw-bold">
+                                                <h6><span class="badge bg-secondary">100</span></h6>
+                                            </td>
+
+
+                                        </tr>
+                                        <tr>
+                                            <th>6</th>
+                                            <td>CITE</td>
+                                            <td><a href="#" class="text-primary fw-bold">Ut inventore ipsa
+                                                    voluptas
+                                                    nulla</a></td>
+                                            <td>INSAN</td>
+                                            <td class="fw-bold">
+                                                <h6><span class="badge bg-secondary">100</span></h6>
+                                            </td>
+
+
+                                        </tr>
+                                        <tr>
+                                            <th>7</th>
+                                            <td>USG</td>
+                                            <td><a href="#" class="text-primary fw-bold">Exercitationem
+                                                    similique
+                                                    doloremque</a></td>
+                                            <td>KOOL</td>
+                                            <td class="fw-bold">
+                                                <h6><span class="badge bg-secondary">100</span></h6>
+                                            </td>
+
+
+                                        </tr>
+                                        <tr>
+                                            <th>8</th>
+                                            <td>USG</td>
+                                            <td><a href="#" class="text-primary fw-bold">Doloribus nisi
+                                                    exercitationem</a></td>
+                                            <td>SHEESH</td>
+                                            <td class="fw-bold">
+                                                <h6><span class="badge bg-secondary">100</span></h6>
+                                            </td>
+
+
+                                        </tr>
+                                        <tr>
+                                            <th>9</th>
+                                            <td>USG</td>
+                                            <td><a href="#" class="text-primary fw-bold">Officiis quaerat
+                                                    sint rerum
+                                                    error</a></td>
+                                            <td>INDEPENDENT</td>
+                                            <td class="fw-bold">
+                                                <h6><span class="badge bg-secondary">100</span></h6>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <th>10</th>
+                                            <td>USG</td>
+                                            <td><a href="#" class="text-primary fw-bold">Sit unde debitis
+                                                    delectus
+                                                    repellendus</a></td>
+                                            <td>WOW</td>
+                                            <td class="fw-bold">
+                                                <h6><span class="badge bg-secondary">100</span></h6>
+                                            </td>
+
 
                                         </tr>
                                     </tbody>
