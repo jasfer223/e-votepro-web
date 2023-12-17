@@ -1,6 +1,16 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\Admin\AdminBlankController;
+use App\Http\Controllers\Admin\AdminAdminsController;
+use App\Http\Controllers\Admin\AdminPartiesController;
+use App\Http\Controllers\Admin\AdminResultsController;
+use App\Http\Controllers\Admin\AdminElectionController;
+use App\Http\Controllers\Admin\AdminOfficersController;
+use App\Http\Controllers\Admin\AdminStudentsController;
+use App\Http\Controllers\Admin\AdminDashboardController;
+use App\Http\Controllers\Admin\AdminCandidatesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +24,23 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('/login');
+});
+
+// Authentication Endpoints
+Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
+// Route::post('/login', [LoginController::class, 'login']);
+Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
+
+// Admin Endpoints
+Route::prefix('/admin')->group(function () {
+    Route::get('/blank', [AdminBlankController::class, 'index'])->name('admin.admin-blank');
+    Route::get('/dashboard', [AdminDashboardController::class, 'index'])->name('admin.admin-dashboard');
+    Route::get('/elections', [AdminElectionController::class, 'index'])->name('admin.admin-elections');
+    Route::get('/parties', [AdminPartiesController::class, 'index'])->name('admin.admin-parties');
+    Route::get('/candidates', [AdminCandidatesController::class, 'index'])->name('admin.admin-candidates');
+    Route::get('/results', [AdminResultsController::class, 'index'])->name('admin.admin-results');
+    Route::get('/students', [AdminStudentsController::class, 'index'])->name('admin.admin-students');
+    Route::get('/officers', [AdminOfficersController::class, 'index'])->name('admin.admin-officers');
+    Route::get('/admins', [AdminAdminsController::class, 'index'])->name('admin.admin-admins');
 });
