@@ -48,7 +48,7 @@
                                     <td><a href="#" class="text-primary fw-bold">Ut inventore ipsa
                                             voluptas
                                             nulla</a></td>
-                                    <td>USWAGG</td>
+                                    <td>GG</td>
 
 
                                 </tr>
@@ -128,7 +128,7 @@
                                     <td><a href="#" class="text-primary fw-bold">Ut inventore ipsa
                                             voluptas
                                             nulla</a></td>
-                                    <td>USWAGG</td>
+                                    <td>GG</td>
 
 
                                 </tr>
@@ -209,7 +209,7 @@
                                 <tr>
                                     <th>Governor</th>
                                     <td><a href="#" class="text-primary fw-bold">John Doe</a></td>
-                                    <td>PSRP</td>
+                                    <td>INSAN</td>
 
 
                                 </tr>
@@ -288,7 +288,7 @@
                                 <tr>
                                     <th>Governor</th>
                                     <td><a href="#" class="text-primary fw-bold">John Doe</a></td>
-                                    <td>PSRP</td>
+                                    <td>INSAN</td>
 
 
                                 </tr>
@@ -369,7 +369,7 @@
                                 <tr>
                                     <th>Governor</th>
                                     <td><a href="#" class="text-primary fw-bold">John Doe</a></td>
-                                    <td>PSRP</td>
+                                    <td>INSAN</td>
 
 
                                 </tr>
@@ -448,7 +448,7 @@
                                 <tr>
                                     <th>Governor</th>
                                     <td><a href="#" class="text-primary fw-bold">John Doe</a></td>
-                                    <td>PSRP</td>
+                                    <td>INSAN</td>
 
 
                                 </tr>

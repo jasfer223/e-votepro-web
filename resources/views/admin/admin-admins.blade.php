@@ -14,10 +14,12 @@
     <section class="section">
         <div class="row">
             <div class="col-lg-12">
-
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Admin Account Records</h5>
+                        <h5 class="card-title">Admin Records <span> </span></h5>
+                        <button class="btn btn-sm btn-primary mb-3">
+                            <i class="bi bi-person-plus"></i>
+                        </button>
                         <!-- Table with stripped rows -->
                         <table class="table datatable table-hover">
                             <thead>
