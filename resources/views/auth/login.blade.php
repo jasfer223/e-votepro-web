@@ -74,13 +74,13 @@
                                         </div>
 
                                         <div class="col-12">
-                                            <label for="yourPassword" class="form-label">Password</label>
+                                            <label for="password" class="form-label">Password</label>
                                             <div class="input-group has-validation">
                                                 <span class="input-group-text" id="inputGroupPrepend">
                                                     <i class="bi bi-lock"></i>
                                                 </span>
                                                 <input type="password" name="password" class="form-control"
-                                                    id="yourPassword" required>
+                                                    id="password" required>
                                                 <div class="invalid-feedback">Please enter your password!</div>
                                             </div>
                                         </div>
@@ -120,12 +120,6 @@
     <script src="/NiceAdmin/assets/js/main.js"></script>
 
     <!-- Page Scripts -->
-    <script>
-        document.getElementById('showPassword').addEventListener('change', function() {
-            var passwordInput = document.getElementById('yourPassword');
-            passwordInput.type = this.checked ? 'text' : 'password';
-        });
-    </script>
 </body>
 
 </html>
