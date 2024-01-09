@@ -81,30 +81,32 @@
                 <span>Results</span>
             </a>
         </li>
+        @can('super-admin')
+            <li class="nav-item">
+                <a class="nav-link {{ Route::currentRouteName() === 'admin.admin-students' ? '' : 'collapsed' }}"
+                    href="{{ route('admin.admin-students') }}">
+                    <i class="bi bi-people"></i>
+                    <span>Students</span>
+                </a>
+            </li>
 
-        <li class="nav-item">
-            <a class="nav-link {{ Route::currentRouteName() === 'admin.admin-students' ? '' : 'collapsed' }}"
-                href="{{ route('admin.admin-students') }}">
-                <i class="bi bi-people"></i>
-                <span>Students</span>
-            </a>
-        </li>
-
-        <li class="nav-item">
+            {{-- <li class="nav-item">
             <a class="nav-link {{ Route::currentRouteName() === 'admin.admin-officers' ? '' : 'collapsed' }}"
                 href="{{ route('admin.admin-officers') }}">
                 <i class="bi bi-person-square"></i>
                 <span>Officers</span>
             </a>
-        </li>
+        </li> --}}
 
-        <li class="nav-item">
-            <a class="nav-link {{ Route::currentRouteName() === 'admin.admin-admins' ? '' : 'collapsed' }}"
-                href="{{ route('admin.admin-admins') }}">
-                <i class="bi bi-shield-lock"></i>
-                <span>Admins</span>
-            </a>
-        </li>
+            <li class="nav-item">
+                <a class="nav-link {{ Route::currentRouteName() === 'admin.admin-admins' ? '' : 'collapsed' }}"
+                    href="{{ route('admin.admin-admins') }}">
+                    <i class="bi bi-shield-lock"></i>
+                    <span>Admins</span>
+                </a>
+            </li>
+        @endcan
+
     </ul>
 
 </aside><!-- End Sidebar-->

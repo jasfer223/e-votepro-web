@@ -18,6 +18,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Election Records <span> | A.Y 2023-2024 </span></h5>
                         <button class="btn btn-sm btn-primary mb-3">
+                            Add new election
                             <i class="bi bi-plus-lg"></i>
                         </button>
                         <!-- Table with stripped rows -->

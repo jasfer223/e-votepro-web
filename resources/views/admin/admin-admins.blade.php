@@ -18,7 +18,8 @@
                     <div class="card-body">
                         <h5 class="card-title">Admin Records <span> </span></h5>
                         <button class="btn btn-sm btn-primary mb-3">
-                            <i class="bi bi-person-plus"></i>
+                            Add new admin
+                            <i class="bi bi-plus-lg"></i>
                         </button>
                         <!-- Table with stripped rows -->
                         <table class="table datatable table-hover">

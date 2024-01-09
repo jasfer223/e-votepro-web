@@ -37,6 +37,7 @@
 <body>
     @include('admin.layouts.partials.admin-header')
     @include('admin.layouts.partials.admin-sidebar')
+    @include('admin.modals.modal-logout')
 
     <main id="main" class="main">
         @yield('content')

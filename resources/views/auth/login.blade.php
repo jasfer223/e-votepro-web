@@ -59,35 +59,36 @@
                                         <p class="text-center small">Enter your email & password to login</p>
                                     </div>
 
-                                    <form class="row g-3 needs-validation" novalidate>
-
+                                    <form class="row g-3" method="POST" action="{{ route('post.login') }}">
+                                        @csrf
+                                        @method('POST')
                                         <div class="col-12">
                                             <label for="yourUsername" class="form-label">Email</label>
-                                            <div class="input-group has-validation">
+                                            <div class="input-group">
                                                 <span class="input-group-text" id="inputGroupPrepend">
                                                     <i class="bi bi-mailbox"></i>
                                                 </span>
-                                                <input type="text" name="username" class="form-control"
-                                                    id="yourUsername" required>
-                                                <div class="invalid-feedback">Please enter your username.</div>
+                                                <input type="text" name="email" class="form-control"
+                                                    id="yourUsername">
+                                                {{-- <div class="invalid-feedback">Please enter your email.</div> --}}
                                             </div>
                                         </div>
 
                                         <div class="col-12">
                                             <label for="password" class="form-label">Password</label>
-                                            <div class="input-group has-validation">
+                                            <div class="input-group">
                                                 <span class="input-group-text" id="inputGroupPrepend">
                                                     <i class="bi bi-lock"></i>
                                                 </span>
                                                 <input type="password" name="password" class="form-control"
-                                                    id="password" required>
-                                                <div class="invalid-feedback">Please enter your password!</div>
+                                                    id="password">
+
                                             </div>
                                         </div>
 
                                         <div class="col-12 mb-3 pt-3">
                                             <button class="btn btn-primary w-100" type="submit"
-                                                style="background-color: #1c0ed6;">Login</button>
+                                                style="background-color: #1c0ed6;">Log In</button>
                                         </div>
                                     </form>
 
